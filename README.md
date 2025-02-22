@@ -9,10 +9,7 @@ Solo se utilizan datos necesarios para la funcionalidad de la extensión, como c
 No se envían datos a terceros, excepto a servicios activados dentro de la extensión.
 
 # Servicios Externos
-Algunas funciones de la extensión pueden depender de servicios de terceros, pero solo si el usuario los activa manualmente:
-SponsorBlock: Se usa para omitir segmentos patrocinados en videos de YouTube. Se envía información sobre el video en reproducción para obtener los tiempos de los segmentos a omitir.
-Return YouTube Dislike: Permite recuperar la funcionalidad de dislikes en videos de YouTube. Se consulta la API para obtener la cantidad de dislikes.
-Estos servicios tienen sus propias políticas de privacidad, y se recomienda revisarlas antes de activarlos.
+Algunas funciones de la extensión pueden depender de servicios de terceros, pero solo si el usuario los activa manualmente:\nSponsorBlock: Se usa para omitir segmentos patrocinados en videos de YouTube. Se envía información sobre el video en reproducción para obtener los tiempos de los segmentos a omitir.\nReturn YouTube Dislike: Permite recuperar la funcionalidad de dislikes en videos de YouTube. Se consulta la API para obtener la cantidad de dislikes.\nEstos servicios tienen sus propias políticas de privacidad, y se recomienda revisarlas antes de activarlos.
 
 # Almacenamiento de Datos
 Todas las configuraciones y preferencias del usuario se almacenan localmente en el navegador.
